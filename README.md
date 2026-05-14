@@ -43,12 +43,10 @@ The analysis covers stock price data from **April 2025 to April 2026**, calculat
 | **Daily Standard Deviation** | `=H10^(1/2)` | Stock moves up/down by ~1.5% from average |
 | **Annualized Volatility** | `=H11*SQRT(H9)` | Yearly price fluctuation of ±23% |
 
-## 🔧 Formulas Used
+## Formulas Used
 
 ### Daily Return
 Daily Return = (Today's Price - Yesterday's Price) / Yesterday's Price
-
-text
 
 ### Variance (Sample)
 Variance = Σ(r - mean)² / (n - 1)
@@ -63,7 +61,6 @@ text
 ### Annualized Volatility
 Annualized Volatility = Daily σ × √252
 
-text
 *Note: 252 represents typical trading days in a year*
 
 ## Key Findings
@@ -94,14 +91,12 @@ Based on the analysis of Apple stock data:
 
 ## File Structure
 project 2 (1).xlsx
-└── risk analysis (worksheet)
-├── Date column (April 2025 - April 2026)
-├── Price column (AAPL closing prices)
-├── Daily Return calculations
-├── Squared deviations
-└── Summary statistics section
-
-text
+- risk analysis (worksheet)
+- Date column (April 2025 - April 2026)
+- Price column (AAPL closing prices)
+- Daily Return calculations
+- Squared deviations
+- Summary statistics section
 
 ## How to Use
 
@@ -132,8 +127,6 @@ Squared Deviation = (deviation)²
 Variance = Sum of all squared deviations / (n-1)
 Daily σ = √variance = 0.015 (1.5%)
 Annualized σ = 0.015 × √252 = 0.23 (23%)
-
-text
 
 ## Limitations
 
