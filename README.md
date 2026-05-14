@@ -51,12 +51,8 @@ Daily Return = (Today's Price - Yesterday's Price) / Yesterday's Price
 ### Variance (Sample)
 Variance = Σ(r - mean)² / (n - 1)
 
-text
-
 ### Standard Deviation
 σ = √Variance
-
-text
 
 ### Annualized Volatility
 Annualized Volatility = Daily σ × √252
@@ -168,6 +164,6 @@ Different investment horizons require different risk metrics. Annualizing allows
 
 MIT License
 
-Copyright (c) 2024 Rohma Shah
+Copyright (c) 2026 Rohma Shah
 
 **Disclaimer**: This analysis is for educational purposes only. Past performance does not guarantee future results. Always conduct your own research before making investment decisions.
